@@ -204,7 +204,7 @@ module.exports = {
         name: "",
         photo: "themes/yellow-swan/img/phonegap.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Aluísio de Ávila, Gustavo Nathu Paulus e Ezequiel Prezotto (Sistemas de Informação - UFSM/FW)",
+        company: "Aluísio de Ávila, Gabriel Camara Mandeli (Sistemas de Informação - UFSM/FW) e Ezequiel Prezotto (Sistemas para Internet - CAFW/UFSM)",
         link: {
           href: "http://twitter.com/linus",
           text: "@linus"
@@ -212,7 +212,7 @@ module.exports = {
         presentation: {
           title: "Minicurso",
           description: "PhoneGap - Desenvolvimento de Aplicativos Móveis com HTML, CSS e JavaScript",
-          location: "Laboratório de Software - Bloco 06",
+          location: "Laboratório de Hardware - Bloco 06",
           time: "19h00"
         }
       }
