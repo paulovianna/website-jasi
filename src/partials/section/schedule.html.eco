@@ -1,0 +1,154 @@
+<h2 class="section-title"><%= @labels['schedule'] %></h2>
+<h4>20 de Outubro - 19h00</h4>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-slot">Atividade</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for slot in @schedule20: %>
+        <% if slot.presentation: %>
+          <tr>
+            <td class="schedule-slot">
+            <% if slot.photo: %>
+              <span class="speaker-photo">
+                <img class="photo" src="<%= slot.photo %>" alt="<%= slot.name %>">
+              </span>
+            <% end %>
+            <%= slot.presentation.title %>
+              <span class="speakers-company"><%= slot.company %></span>
+            </td>
+            <td class="schedule-description">
+              <%= slot.presentation.description %><br><br>
+              <b>Local: </b><%= slot.presentation.location %>
+            </td>
+          </tr>
+        <% else: %>
+          <tr class="schedule-other">
+            <td class="schedule-slot"><%= slot.name %></td>
+            <td class="schedule-description">-</td>
+          </tr>
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<br>
+<h4>21 de Outubro - 19h00</h4>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-slot">Atividade</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for slot in @schedule21: %>
+        <% if slot.presentation: %>
+          <tr>
+            <td class="schedule-slot">
+            <% if slot.photo: %>
+              <span class="speaker-photo">
+                <img class="photo" src="<%= slot.photo %>" alt="<%= slot.name %>">
+              </span>
+            <% end %>
+            <%= slot.presentation.title %>
+              <span class="speakers-company"><%= slot.company %></span>
+            </td>
+            <td class="schedule-description">
+              <%= slot.presentation.description %><br><br>
+              <b>Local: </b><%= slot.presentation.location %>
+            </td>
+          </tr>
+        <% else: %>
+          <tr class="schedule-other">
+            <td class="schedule-slot"><%= slot.name %></td>
+            <td class="schedule-description">-</td>
+          </tr>
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<br>
+<h4>22 de Outubro - 19h00</h4>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-slot">Atividade</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for slot in @schedule22: %>
+        <% if slot.presentation: %>
+          <tr>
+            <td class="schedule-slot">
+            <% if slot.photo: %>
+              <span class="speaker-photo">
+                <img class="photo" src="<%= slot.photo %>" alt="<%= slot.name %>">
+              </span>
+            <% end %>
+            <%= slot.presentation.title %>
+              <span class="speakers-company"><%= slot.company %></span>
+            </td>
+            <td class="schedule-description">
+              <%= slot.presentation.description %><br><br>
+              <b>Local: </b><%= slot.presentation.location %>
+            </td>
+          </tr>
+        <% else: %>
+          <tr class="schedule-other">
+            <td class="schedule-slot"><%= slot.name %></td>
+            <td class="schedule-description">-</td>
+          </tr>
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<br>
+<h4>23 de Outubro - 19h00</h4>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-slot">Atividade</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for slot in @schedule23: %>
+        <% if slot.presentation: %>
+          <tr>
+            <td class="schedule-slot">
+            <% if slot.photo: %>
+              <span class="speaker-photo">
+                <img class="photo" src="<%= slot.photo %>" alt="<%= slot.name %>">
+              </span>
+            <% end %>
+            <%= slot.presentation.title %>
+              <span class="speakers-company"><%= slot.company %></span>
+            </td>
+            <td class="schedule-description">
+              <%= slot.presentation.description %><br><br>
+              <b>Local: </b><%= slot.presentation.location %>
+            </td>
+          </tr>
+        <% else: %>
+          <tr class="schedule-other">
+            <td class="schedule-time"><%= slot.time %></td>
+            <td class="schedule-slot"><%= slot.name %></td>
+            <td class="schedule-description">-</td>
+          </tr>
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<br>

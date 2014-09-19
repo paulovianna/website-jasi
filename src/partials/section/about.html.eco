@@ -1,0 +1,6 @@
+<h2 class="section-title"><%= @labels['about'] %></h2>
+<p itemprop="description">A II JASI (II Jornada Acadêmica de Sistemas de Informação) é um evento que reunirá os docentes e discentes do Departamento de Tecnologia da Informação e do Curso de Bacharelado em Sistemas de Informação, para que sejam discutidos temas relevantes à formação profissional dos futuros egressos. O evento contará com palestras sobre a aplicação de sistemas de informação nas empresas, minicursos voltados ao estudo de tecnologias atuais e um painel sobre a realidade do mercado de trabalho na área de Tecnologia da Informação (TI) na região de Frederico Westphalen – RS.</p>
+
+<p>O painel sobre o mercado de trabalho será mediado pela coordenação do curso, com a participação de alunos que já atuam no mercado de trabalho na área de Tecnologia da Informação. A intenção do painel é mostrar aos alunos que ainda não estão no mercado de trabalho as possibilidades que existem na região, bem como de que forma o Curso de Bacharelado em Sistemas de Informação tem apoiado os alunos no seu desenvolvimento profissional.</p>
+
+<p>Os minicursos pretendem propiciar para os alunos a aplicação de tecnologias atuais, complementando os estudos realizados nas disciplinas do curso.</p>
